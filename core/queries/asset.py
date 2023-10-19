@@ -7,6 +7,7 @@ getAssetsQuery = gql(
             slug
             id
             name
+            symbol
       }
     }
   """

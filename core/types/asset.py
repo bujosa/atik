@@ -1,10 +1,11 @@
 import math
 import pandas as pd
-from config.env import env
-from config.client import create_gql_client
-from core.queries import getAssetsQuery
-from core.mutations import createAssetMutation
+from settings import env
+from settings.client import create_gql_client
+from core.queries.asset import getAssetsQuery
+from core.mutations.asset import createAssetMutation
 from functions.generate_slug import generate_slug
+from collections import namedtuple
 
 class Asset:
     def __init__(self):
@@ -16,14 +17,10 @@ class Asset:
         assets = self.fromApi()
         assetsFromCsv = self.get()
 
-        print(assetsFromCsv)
-
         for asset in assetsFromCsv:
                 try:
-                    if (asset == math.nan):
-                        continue
-
-                    if generate_slug(asset) in assets:
+                    if asset.symbol in assets:
+                        print("Asset already exists")
                         continue
 
                     params = {
@@ -50,13 +47,17 @@ class Asset:
 
         assets = {}
         for asset in getAssetsResult:
-            assets[asset['slug']] = asset
+            assets[asset['symbol']] = asset
 
         return assets
 
 
     def get(self):
         """Get assets from csv."""
-        df = pd.read_csv("../../data/clean_data.csv", low_memory=False, encoding='latin-1')
+        df = pd.read_csv("./data/clean_data.csv", low_memory=False, encoding='latin-1')
+        asset = namedtuple('asset', df.columns)
+        assets = []
+        for row in df.itertuples(index=False):
+            assets.append(asset(*row))
 
-        return df.tolist()
+        return assets
