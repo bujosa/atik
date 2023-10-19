@@ -1,0 +1,57 @@
+name,symbol,url,new_name
+Bitcoin,btc,https://coinmarketcap.com/currencies/bitcoin/
+Litecoin,ltc,https://coinmarketcap.com/currencies/litecoin/
+Ripple,xrp,https://coinmarketcap.com/currencies/ripple/
+Dogecoin,doge,https://coinmarketcap.com/currencies/dogecoin/
+Monero,xmr,https://coinmarketcap.com/currencies/monero/
+Stellar,xlm,https://coinmarketcap.com/currencies/stellar/
+Tether,usdt,https://coinmarketcap.com/currencies/tether/
+Ethereum,eth,https://coinmarketcap.com/currencies/ethereum/
+Ethereum Classic,etc,https://coinmarketcap.com/currencies/ethereum-classic/
+Maker,mkr,https://coinmarketcap.com/currencies/maker/
+Basic Attention Token,bat,https://coinmarketcap.com/currencies/basic-attention-token/
+EOS,eos,https://coinmarketcap.com/currencies/eos/
+Bitcoin Cash,bch,https://coinmarketcap.com/currencies/bitcoin-cash/
+BNB,bnb,https://coinmarketcap.com/currencies/bnb/
+TRON,trx,https://coinmarketcap.com/currencies/tron/
+Decentraland,mana,https://coinmarketcap.com/currencies/decentraland/
+Chainlink,link,https://coinmarketcap.com/currencies/chainlink/
+Cardano,ada,https://coinmarketcap.com/currencies/cardano/
+Filecoin,fil,https://coinmarketcap.com/currencies/filecoin/
+Theta Network,theta,https://coinmarketcap.com/currencies/theta/
+Huobi Token,ht,https://coinmarketcap.com/currencies/htx-token/
+Ravencoin,rvn,https://coinmarketcap.com/currencies/ravencoin/
+Tezos,xtz,https://coinmarketcap.com/currencies/tezos/
+VeChain,vet,https://coinmarketcap.com/currencies/vechain/
+Quant,qnt,https://coinmarketcap.com/currencies/quant/
+USD Coin,usdc,https://coinmarketcap.com/currencies/usd-coin/
+Cronos,cro,https://coinmarketcap.com/currencies/cronos/
+Wrapped Bitcoin,wbtc,https://coinmarketcap.com/currencies/wrapped-bitcoin/
+Cosmos,atom,https://coinmarketcap.com/currencies/cosmos/
+Polygon,matic,https://coinmarketcap.com/currencies/polygon/
+OKB,okb,https://coinmarketcap.com/currencies/okb/
+UNUS SED LEO,leo,https://coinmarketcap.com/currencies/unus-sed-leo/
+Algorand,algo,https://coinmarketcap.com/currencies/algorand/
+Chiliz,chz,https://coinmarketcap.com/currencies/chiliz/
+THORChain,rune,https://coinmarketcap.com/currencies/thorchain/
+Terra Classic,lunc,https://coinmarketcap.com/currencies/terra-luna/
+FTX Token,ftt,https://coinmarketcap.com/currencies/ftx-token/
+Hedera,hbar,https://coinmarketcap.com/currencies/hedera/
+Binance USD,busd,https://coinmarketcap.com/currencies/binance-usd/,BUSD
+Dai,dai,https://coinmarketcap.com/currencies/dai/
+Solana,sol,https://coinmarketcap.com/currencies/solana/
+Avalanche,avax,https://coinmarketcap.com/currencies/avalanche/
+Shiba Inu,shib,https://coinmarketcap.com/currencies/shiba-inu/
+The Sandbox,sand,https://coinmarketcap.com/currencies/the-sandbox/
+Polkadot,dot,https://coinmarketcap.com/currencies/polkadot/
+Elrond,egld,https://coinmarketcap.com/currencies/multiversx-egld/,MultiversX
+Uniswap,uni,https://coinmarketcap.com/currencies/uniswap/
+Aave,aave,https://coinmarketcap.com/currencies/aave/
+NEAR Protocol,near,https://coinmarketcap.com/currencies/near-protocol/
+Flow,flow,https://coinmarketcap.com/currencies/flow/
+Internet Computer,icp,https://coinmarketcap.com/currencies/internet-computer/
+Casper,CSPR,https://coinmarketcap.com/currencies/casper/
+Toncoin,ton,https://coinmarketcap.com/currencies/toncoin/
+Chain,XCN,https://coinmarketcap.com/currencies/onyxcoin/,Onyxcoin
+ApeCoin,APE,https://coinmarketcap.com/currencies/apecoin-ape/
+Aptos,apt,https://coinmarketcap.com/currencies/aptos/
